@@ -1,44 +1,44 @@
 hello-world
 ===========
 
-Student of CMPE 273 at San Jose State University
+Student of CMPE 273 at San Jose State University.
 
-My first class-project repository on GitHub
-
-=============
-Dependencies Installation:
-
-# Install Java 8
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
-
-# Install Scala 2.11.2
-wget http://www.scala-lang.org/files/archive/scala-2.11.2.deb
-sudo dpkg -i scala-2.11.2.deb
-sudo apt-get update
-sudo apt-get install scala
-
-# Install Gradle
-sudo add-apt-repository ppa:cwchien/gradle
-sudo apt-get update
-sudo apt-cache search gradle
-sudo apt-get install gradle-2.1
-
-# Install Git SCM
-sudo apt-get install git
+My first class-project repository on GitHub.
 
 =============
+# Dependencies Installation:
 
+<i>Install Java 8</i><br>
+sudo add-apt-repository ppa:webupd8team/java<br>
+sudo apt-get update<br>
+sudo apt-get install oracle-java8-installer<br>
+
+<i>Install Scala 2.11.2</i><br>
+wget http://www.scala-lang.org/files/archive/scala-2.11.2.deb<br>
+sudo dpkg -i scala-2.11.2.deb<br>
+sudo apt-get update<br>
+sudo apt-get install scala<br>
+
+<i>Install Gradle</i><br>
+sudo add-apt-repository ppa:cwchien/gradle<br>
+sudo apt-get update<br>
+sudo apt-cache search gradle<br>
+sudo apt-get install gradle-2.1<br>
+
+<i>Install Git SCM</i><br>
+sudo apt-get install git<br>
+
+=============
+#Compile and Run
 How to use this project:
 
 Check out using git or clone to desktop.
 
 Run the following commands with hello-world as current folder.
 
-gradle Build
-gradle bootRun
+gradle Build<br>
+gradle bootRun<br>
 
 ================
-References:
+#References:
 git clone https://github.com/sithu/HelloScala
