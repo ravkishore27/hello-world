@@ -16,10 +16,10 @@ import org.springframework.stereotype.Controller
  */
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan
+@ComponentScan()
 @Controller
 class HelloConfig
-{ 
+{
 	@RequestMapping(Array("/"))
 	@ResponseBody
 	def Main (args : Array[String]) : java.lang.String = 
